@@ -97,16 +97,19 @@ sudo apt-get install python3-pip
 ```python -m pip install Django
 ```
 ***to install nodejs for npm for angular***
+
 ```
 sudo apt install nodejs
 ```
 
 ***to install npm for angular***
+
 this is installed when you install nodejs
 
 
 **to install angular**
-```npm install -g @angular/cli
+```
+npm install -g @angular/cli
 ```
 
 *running*
