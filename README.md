@@ -82,6 +82,33 @@ git reset
 git pull origin unit_test
 ```
 
+**to install django**
+install python 3
+```
+sudo apt-get update
+sudo apt-get install python3.6
+```
+install pip3
+```
+sudo apt-get install python3-pip
+```
+
+
+```python -m pip install Django
+```
+***to install nodejs for npm for angular***
+```
+sudo apt install nodejs
+```
+
+***to install npm for angular***
+this is installed when you install nodejs
+
+
+**to install angular**
+```npm install -g @angular/cli
+```
+
 *running*
 ```
 python3 manage.py makemigrations
