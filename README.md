@@ -122,6 +122,7 @@ git reset
 git pull origin unit_test
 ```
 
+## RUNNING
 ### DJANGO
 ```
 python3 manage.py makemigrations
@@ -130,6 +131,6 @@ python3 manage.py runserver
 ```
 
 ### ANGULAR
-`
-ng something
-`
+```
+ng serve --watch
+```
