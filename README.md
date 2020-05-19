@@ -4,6 +4,20 @@ A community-sourced translation app for Filipino languages
 ### History
 I made a translation app for filipino languages before for a subject but it was badly implemented. Now I am redoing it.
 
+## RUNNING
+### DJANGO
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
+### ANGULAR
+```
+ng serve --watch
+```
+
+
 ## INSTALLATION OF PREREQS
 
 **to install git**
@@ -31,6 +45,12 @@ sudo apt-get install python3-pip
 ```
 python -m pip install Django
 ```
+
+install django rest chuchu
+install django cors chuchu
+
+
+
 **to install nodejs for npm for angular**
 
 ```
@@ -47,18 +67,6 @@ NOTHING TO DO. this is installed when you install nodejs
 npm install -g @angular/cli
 ```
 
-## RUNNING
-### DJANGO
-```
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver
-```
-
-### ANGULAR
-```
-ng serve --watch
-```
 
 ## USAGE
 
