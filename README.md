@@ -130,3 +130,6 @@ python3 manage.py runserver
 ```
 
 ### ANGULAR
+`
+ng something
+`
