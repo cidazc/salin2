@@ -47,9 +47,22 @@ NOTHING TO DO. this is installed when you install nodejs
 npm install -g @angular/cli
 ```
 
+## RUNNING
+### DJANGO
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
+### ANGULAR
+```
+ng serve --watch
+```
+
 ## USAGE
 
-### GIT
+### GIT TUTORIAL
 
 **How to use Git**
 
@@ -120,17 +133,4 @@ resetting mistakes made to one branch
 ```
 git reset
 git pull origin unit_test
-```
-
-## RUNNING
-### DJANGO
-```
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver
-```
-
-### ANGULAR
-```
-ng serve --watch
 ```
