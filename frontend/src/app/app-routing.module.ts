@@ -5,7 +5,6 @@ import {TranslationComponent} from './translation/translation.component'
 const routes: Routes = [
   {path:'news', component: NewsComponent},
   {path:'translation', component: TranslationComponent}
-
 ];
 
 @NgModule({
